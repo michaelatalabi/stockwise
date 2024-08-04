@@ -17,6 +17,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from django.urls import path
+from .views import stock_data
+
+#for the stock data
+urlpatterns = [
+    path('api/stock/<str:symbol>/', stock_data),
+]
+
+
 urlpatterns = [
     path("admin/", admin.site.urls),
 ]

@@ -43,3 +43,6 @@ isort==5.10.1
 
 # Any additional tools needed for CI/CD
 coverage==6.4.1
+
+# to make http requests
+requests
