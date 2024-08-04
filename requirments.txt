@@ -1,0 +1,45 @@
+# Django framework
+Django==4.2.1
+
+# PostgreSQL database adapter
+psycopg2-binary
+
+# Gunicorn for running the Django app in production
+gunicorn==20.1.0
+
+# Django REST framework for building APIs
+djangorestframework==3.14.0
+
+# CORS headers for Django
+django-cors-headers==3.13.0
+
+# Environment variables
+python-dotenv==0.20.0
+
+# JWT Authentication for DRF
+djangorestframework-simplejwt==5.2.0
+
+# JWT encoding and decoding
+pyjwt==2.5.0
+
+# Time zone support
+pytz==2023.3
+
+# SQL parsing and formatting
+sqlparse==0.4.4
+
+# ASGI server interface
+asgiref==3.6.0
+
+# Testing tools
+pytest==7.1.2
+pytest-django==4.5.2
+pytest-cov==3.0.0
+
+# Linters and Formatters
+flake8==4.0.1
+black==22.3.0
+isort==5.10.1
+
+# Any additional tools needed for CI/CD
+coverage==6.4.1
